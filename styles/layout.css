@@ -80,24 +80,36 @@
     grid-column: 2/4;
     grid-row: 1/5;
 }
-.mission > .item_2 > .picture{
-    grid-row: 3/5;
+.mission > .item_2 > .picture-of-interest{
+    align-self: end;
+    justify-content: end;
 }
 
 .mission > .item_3{
     background-color:#213C86;
 
-}   
-
+}
 
 
 
 
 
 /* approach */
-.approach > .approach_item{
-    border: 1px solid black;
+.approach_item {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align items to the bottom */
+    height: 100%; /* Ensure the container fills its parent */
 }
+
+.approach-icon {
+    width: 100px; /* Set the width */
+    height: auto; /* Allow height to adjust proportionally */
+}
+
+
+
 /* Projects */
 .projects > .projects_item{
     border: 1px solid black;
@@ -118,7 +130,8 @@
     grid-column: 1/span 4;
     grid-row: 4/4;
 }
-/* remember there is a stuff here */
+
+/* menus */
 .hamburger{
     display: none;
 }
