@@ -96,6 +96,7 @@
 
 /* approach */
 .approach_item {
+    grid-row: 1/5;
     display: flex; /* Enable flexbox */
     flex-direction: column; /* Set flex direction to column */
     align-items: center; /* Center horizontally */
