@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore data science consultant for corporate use"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Wicaksono</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- 
+      font-family: "Kode Mono", monospace;
+      font-family: "Titillium Web", sans-serif;
+      font-family: "Playfair Display", serif;
+    
+    
+    -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+      @import url(styles/font.css);
+      @import url(styles/layout.css);
+      @import url(styles/style.css);
+    </style>
+  </head>
+  <body>
+    <header class="navigation">
+      <div class="logo">
+        <span>[ Marlow's Contrabands ] </span>
+      </div>
+      <ul class="menu-hamburger">
+        <li><a class="menuItem" href="#">Home</a></li>
+        <li><a class="menuItem" href="#">Our mission</a></li>
+        <li><a class="menuItem" href="#">our approach</a></li>
+        <li><a class="menuItem" href="#">projects</a></li>
+      </ul>
+      <button class="hamburger">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
+
+
+      <div class="menu">
+        <a href="#" class="Home-nav">home</a>
+        <a href="#" class="our-missions-nav">our missions</a>
+        <a href="#" class="our-approach-nav">our approach</a>
+        <a href="#" class="projects-nav">projects</a>
+      </div>
+    </header>
+
+    <div class="content Home">
+      <div class="item_1 home_item"> 
+        <span></span>
+      </div>
+      <div class="item_2 home_item">
+        <h1>Marlow's</br>Contrabands</br></h1>
+        <span class="art"></span>
+        <div class="cta-container">
+          <h3>why pirate software that sucks, when you can use or contribute with opensource software ?</h3>
+          <p>
+            We offer open source software tailored for both STEM and liberal arts students or professionals.
+            From Computational Fluid Dynamics to Computer-Aided Design, our tools cover a wide range of applications. 
+            For you liberal arts folks, we provide simulation and modeling software to study complex systems, 
+            forecast trends, and analyze policy scenarios. Join us in building a better future with open source solutions.
+            Guess what ? we also have opensource illustrator and video editor why pay 400$ a year just to design. 
+            our AI-HUB features opensource pre-trained models or regular architechture models with numerous branches of applications
+          </p>
+          <button class="primary">Learn More</button>
+          <button class="secondary">Get started</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="content mission">
+      
+      <div class="item_1 mission_item"></div>
+      <div class="item_2 mission_item"></div>
+      <div class="item_3 mission_item"><h1>Together built by community</h1></div>
+    </div>
+    <div class="content approach">
+      <div class="item_1 approach_item">1</div>
+      <div class="item_2 approach_item">2</div>
+      <div class="item_3 approach_item">3</div>
+    </div>
+    <div class="content projects">
+      <div class="item_1 projects_item">1</div>
+      <div class="item_2 projects_item">2</div>
+      <div class="item_3 projects_item">3</div>
+      <div class="item_4 projects_item">4</div>
+    </div>
+
+    <script>
+const menu = document.querySelector(".menu-hamburger");
+const menuItems = document.querySelectorAll(".menuItem");
+const hamburger= document.querySelector(".hamburger");
+const closeIcon= document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  } else {
+    menu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+  }
+}
+hamburger.addEventListener("click", toggleMenu);
+    </script>
+  </body>
+</html>

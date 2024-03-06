@@ -1,0 +1,9 @@
+        <picture class="hns">
+          <!-- For smaller phones -->
+          <source media="(max-width: 799px)" srcset="./asset/hns/hns-800w.jpg">
+          <!-- For larger phones and desktops -->
+          <source media="(min-width: 800px)" srcset="./asset/hns/hns-480w.jpg">
+          <!-- Default image for browsers that do not support the <picture> element -->
+          <img src="./asset/hns/hns-800w.jpg" alt="Herbs and spices" style="width: 100%;">
+      </picture>
+      

@@ -1,0 +1,48 @@
+*{
+    font-family: "Titillium Web", sans-serif;
+
+}
+.navigation > .logo{
+    font-size: 1.3em;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.navigation > .menu > a {
+    font-size: 1.3em;
+    font-family: "Kode Mono", monospace;
+    text-decoration: none; 
+    color: inherit; 
+}
+/* Content Home */
+
+.Home > .item_2 > h1{
+    font-size: 9em;
+    font-family: "Playfair Display", serif;
+
+    font-weight: 700;
+    font-style: normal;
+}
+.Home > .item_2 > h3{
+    font-size: 1.4em;
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+.Home > .item_2 > p{
+    font-weight: 400;
+}
+/* mission */
+.mission > .item_3 > h1{
+    font-size: 6em;
+    font-family: "Playfair Display", serif;
+
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media screen and (max-width: 600px){
+    .Home > .item_2 > h1{
+    font-size: 3.2em;
+    }
+}
