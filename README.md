@@ -1,50 +1,62 @@
 
-```markdown
-# Marlows contraband
+## Project Title
 
-Marlows contraband is a opensource media for computer tools made for STEM / liberal arts proffessions, we offer various things in here. If you want to collaborate please request a pull in this repository
-## Table of Contents
+### Description
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+This project is a web application built using HTML, CSS, and JavaScript. It serves as a template for creating a documentation website. The website includes information about the project, instructions for setup and usage, and showcases screenshots of the development process.
 
-## Installation
+### Setup Instructions
 
-To install just follow through the UI .exe installer, then make an account to to save your progress
+To set up the project locally, follow these steps:
 
-## Usage
-This website is used as a portal to download our produdts 
-lists of our websites : 
-- open CAD (OCAD ) is a software simmilar to other CAD product, but its way more customizeable 
-- open CFD (OCFD)is a software dedicated for fluid interaction modeling, you can add plugins too 
-- (PIFTA) is a software to  (Policy Analysis Frameworks modeling architecture) is a comprehensive framework for modeling and analyzing policy scenarios.
-- (HUBarch) is a python library for machine learning models / deep learning models 
+1. Clone the repository to your local machine.
+2. Open the project folder in your code editor.
+3. Open the `index.html` file in your web browser to view the website.
 
-to install  HUBarch ,OCAD, OCFD and PIFTA simply download it from our websites
-for HUBarch you can also install through your available conda environment
-```conda
-!conda install HUBarch  1.23
-```
-and to import the model
-```python
-from HUBarch import "modelsclass" . "Model names"
-from HuBarch import modelmaker as mk
-mk = modelclass("parameters/ hyperparameters")
+### Screenshots
 
-```
-to attach pandas database simply follow this through
-```python
-mk(df,df.drop('target'))
+### Landing Page
+<img src="./image_readme/1_landing_page.png" alt="Landing Page" width="800">
 
-```
-we also have pytorch like modelmaker on the way, follow our twitter for more updates !
+### Mission Page
+<img src="./image_readme/2_mission_page.png" alt="Mission Page" width="800">
 
-## Contributing
+### Approach Page
+<img src="./image_readme/3_approach_page.png" alt="Approach Page" width="800">
 
-To contribute to our software, you can submit a plugin by following these steps:
+### Project Page
+<img src="./image_readme/4_project_page.png" alt="Project Page" width="800">
+
+### Landing Page (Phone View)
+<img src="./image_readme/5_landing_page_phone_view.png" alt="Landing Page (Phone View)" width="400">
+
+### Mission Page (Phone View)
+<img src="./image_readme/6_mission_page_phone.png" alt="Mission Page (Phone View)" width="400">
+
+### Approach Page (Phone View)
+<img src="./image_readme/7_approach_page_phone.png" alt="Approach Page (Phone View)" width="400">
+
+### Project Page (Phone View)
+<img src="./image_readme/8_project_phone.png" alt="Project Page (Phone View)" width="400">
+
+### Burger Navigation
+<img src="./image_readme/9_burger_navbar.png" alt="Burger Navigation" width="800">
+
+
+### Dependencies
+
+This project does not have any external dependencies or libraries. It is built using pure HTML, CSS, and JavaScript.
+
+### Design Choices
+
+- **Responsive Design**: The website is designed to be responsive and accessible on different devices and screen sizes.
+- **Consistent Styling**: Consistent styling elements are used throughout the website to maintain visual coherence.
+
+### Contribution
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on GitHub.
+
+For any inquiries or questions about the project, feel free to contact the author at [wcks@marlowcontraband.com](mailto:wcks@marlowcontraband.com).
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b plugin-feature`).
@@ -62,6 +74,17 @@ If you want to contribute to the website, here's how:
 
 These steps ensure that your contributions can be reviewed and integrated into the main repositories effectively.
 
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### Author
+
+[wicaksono](https://github.com/wicaksonolxn)
+
+### Contact
+
 ## License
 
 Include information about the license for your project. Choose an appropriate license and include any required disclaimers.
@@ -72,5 +95,4 @@ This project is licensed under the [MIT License]("./LICENSE").
 Feel free to customize this template to fit the specific needs of your project. Let me know if you need further assistance! 
 ```
 to visit our current website please visit 
-
 [marlows yard website](https://software.marlowsyards.shop/ )
