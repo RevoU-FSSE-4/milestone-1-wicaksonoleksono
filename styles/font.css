@@ -72,10 +72,15 @@
 
 }
 .approach_item :not(h3){
-    font-size: 1em;
+    font-size: em;
 
 }
 
+/* prijects */
+.projects > .projects_item > .download {
+    font-size: 2em;
+
+}
 
 
 
