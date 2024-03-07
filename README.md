@@ -1,9 +1,14 @@
 
-## Project Title
+## Marlows contraband 
 
 ### Description
 
 This project is a web application built using HTML, CSS, and JavaScript. It serves as a template for creating a documentation website. The website includes information about the project, instructions for setup and usage, and showcases screenshots of the development process.
+
+Marlows contraband is a website dedicated to be the hub for opensource tools, From graphic designing to Fluid modeling. Marlows contraband offers various software for free, we also encourage people to make their own plugin and upload it to the community plugin libraries 
+
+
+
 
 ### Setup Instructions
 
@@ -16,15 +21,27 @@ To set up the project locally, follow these steps:
 ### Screenshots
 
 ### Landing Page
+
+Landing page used for USER to get first impression. 
+
 <img src="./image_readme/1_landing_page.png" alt="Landing Page" width="800">
 
 ### Mission Page
+
+mission page used for user to know what kind of corporation marlows contraband is 
+
 <img src="./image_readme/2_mission_page.png" alt="Mission Page" width="800">
 
 ### Approach Page
+
+approach page used for user to understand how is it possible marlows contraband run their business
+
 <img src="./image_readme/3_approach_page.png" alt="Approach Page" width="800">
 
 ### Project Page
+
+project page is the current prokect that are handled by marlows contraband 
+
 <img src="./image_readme/4_Project_page.png" alt="Project Page" width="800">
 
 ### Landing Page (Phone View)
@@ -60,7 +77,7 @@ For any inquiries or questions about the project, feel free to contact the autho
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b plugin-feature`).
-3. Make changes and commit them (`git commit -am 'Add plugin feature'`).
+3. Make changes and commit them (`git commit -am 'Add plugin feature'`). 
 4. Push to the branch (`git push origin plugin-feature`).
 5. Create a pull request.
 
