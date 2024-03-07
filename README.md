@@ -25,7 +25,7 @@ To set up the project locally, follow these steps:
 <img src="./image_readme/3_approach_page.png" alt="Approach Page" width="800">
 
 ### Project Page
-<img src="./image_readme/4_project_page.png" alt="Project Page" width="800">
+<img src="./image_readme/4_Project_page.png" alt="Project Page" width="800">
 
 ### Landing Page (Phone View)
 <img src="./image_readme/5_landing_page_phone_view.png" alt="Landing Page (Phone View)" width="400">
