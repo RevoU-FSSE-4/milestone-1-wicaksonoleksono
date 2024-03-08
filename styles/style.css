@@ -36,7 +36,7 @@
     padding: 0.3em;
     border-radius: 40px;
 }
-.projects > .projects_item > .download :hover {
+.projects > .projects_item > .download:hover {
     background-color: #213C86;
     color: #FF4D4D;
 }
